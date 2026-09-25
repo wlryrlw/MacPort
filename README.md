@@ -19,25 +19,11 @@ MacPort 是一款面向个人使用的刘海屏 macOS 端口监控应用。它�
 
 ## 安装与运行
 
-MacPort 当前面向个人使用，不通过 App Store 分发。推荐从源码构建应用。
-
-```sh
-git clone <repository-url> MacPort
+```
 cd MacPort
-```
-
-构建应用：
-
-```sh
-sh scripts/build_app.sh # 构建 MacPort.app
-```
-
-启动应用：
-
-```sh
+sh scripts/build_app.sh
 open dist/MacPort.app
 ```
-
 首次运行时，应用会执行兼容性检查，然后出现在菜单栏。点击菜单栏图标可以查看当前端口、扫描状态、历史记录、诊断页面和设置。
 
 ## 使用说明
