@@ -1,5 +1,3 @@
-.uv-cache/
-.venv/
 .swift-cache/
 .build/
 .xcode-derived/
@@ -13,4 +11,3 @@ MacPort.xcodeproj/project.xcworkspace/xcuserdata/
 *.app/
 *.dSYM/
 .DS_Store
-__pycache__/

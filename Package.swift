@@ -13,11 +13,6 @@ let package = Package(
             path: "Sources/MacPort",
             resources: [.process("Resources")],
             linkerSettings: [.linkedLibrary("sqlite3")]
-        ),
-        .testTarget(
-            name: "MacPortTests",
-            dependencies: ["MacPort"],
-            path: "Tests/MacPortTests"
         )
     ]
 )

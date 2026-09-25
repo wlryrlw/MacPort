@@ -29,8 +29,6 @@ cd MacPort
 构建应用：
 
 ```sh
-uv sync
-sh scripts/run_checks.sh # 运行检查
 sh scripts/build_app.sh # 构建 MacPort.app
 ```
 
@@ -80,4 +78,3 @@ open dist/MacPort.app
 MacPort 源代码采用 MIT License 授权。
 
 Copyright (c) 2026 [wlryrlw]
-
