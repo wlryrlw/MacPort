@@ -1,0 +1,16 @@
+.uv-cache/
+.venv/
+.swift-cache/
+.build/
+.xcode-derived/
+dist/
+DerivedData/
+build/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+MacPort.xcodeproj/xcuserdata/
+MacPort.xcodeproj/project.xcworkspace/xcuserdata/
+*.app/
+*.dSYM/
+.DS_Store
+__pycache__/

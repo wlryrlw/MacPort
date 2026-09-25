@@ -1,0 +1,84 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* App.swift */; };
+		A10000000000000000000002 /* Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* Compatibility.swift */; };
+		A10000000000000000000003 /* Diagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* Diagnostics.swift */; };
+		A10000000000000000000004 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* History.swift */; };
+		A10000000000000000000005 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* Models.swift */; };
+		A10000000000000000000006 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* Overlay.swift */; };
+		A10000000000000000000007 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* Runtime.swift */; };
+		A10000000000000000000008 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* Scanner.swift */; };
+		A10000000000000000000009 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* UI.swift */; };
+		A1000000000000000000000A /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* README.txt */; };
+		A1000000000000000000000B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* AppKit.framework */; };
+		A1000000000000000000000C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* Foundation.framework */; };
+		A1000000000000000000000D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* SwiftUI.framework */; };
+		A1000000000000000000000E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* Compatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compatibility.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* Diagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostics.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* Runtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runtime.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		B1000000000000000000000B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B1000000000000000000000C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1000000000000000000000D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B1000000000000000000000E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = archive.tbd; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B1000000000000000000000F /* MacPort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacPort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000B, A1000000000000000000000C, A1000000000000000000000D, A1000000000000000000000E, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {isa = PBXGroup; children = (B10000000000000000000001, B10000000000000000000002, B10000000000000000000003, B10000000000000000000004, B10000000000000000000005, B10000000000000000000006, B10000000000000000000007, B10000000000000000000008, B10000000000000000000009, ); name = MacPort; path = Sources/MacPort; sourceTree = "<group>"; };
+		D10000000000000000000002 = {isa = PBXGroup; children = (B1000000000000000000000A, ); name = Resources; path = Sources/MacPort/Resources; sourceTree = "<group>"; };
+		D10000000000000000000003 = {isa = PBXGroup; children = (B1000000000000000000000F, ); name = Products; sourceTree = "<group>"; };
+		D10000000000000000000004 = {isa = PBXGroup; children = (D10000000000000000000001, D10000000000000000000002, D10000000000000000000003, ); sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* MacPort */ = {isa = PBXNativeTarget; buildConfigurationList = F20000000000000000000002 /* Build configuration list for PBXNativeTarget "MacPort" */; buildPhases = (C10000000000000000000002, C10000000000000000000003, C10000000000000000000001, ); buildRules = ( ); dependencies = ( ); name = MacPort; productName = MacPort; productReference = B1000000000000000000000F /* MacPort.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000002 /* Project object */ = {isa = PBXProject; attributes = { LastSwiftUpdateCheck = 2650; LastUpgradeCheck = 2650; }; buildConfigurationList = F20000000000000000000001 /* Build configuration list for PBXProject "MacPort" */; compatibilityVersion = "Xcode 3.2"; developmentRegion = zh_CN; hasScannedForEncodings = 0; knownRegions = (en, zh_CN, ); mainGroup = D10000000000000000000004; productRefGroup = D10000000000000000000003; projectDirPath = ""; projectRoot = ""; targets = (E10000000000000000000001, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000A, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10000000000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CODE_SIGNING_ALLOWED = NO; MACOSX_DEPLOYMENT_TARGET = 26.0; SDKROOT = macosx; SWIFT_VERSION = 6.0; }; name = Debug; };
+		F10000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CODE_SIGNING_ALLOWED = NO; MACOSX_DEPLOYMENT_TARGET = 26.0; SDKROOT = macosx; SWIFT_VERSION = 6.0; }; name = Release; };
+		F10000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ARCHS = arm64; CODE_SIGNING_ALLOWED = NO; INFOPLIST_FILE = Info.plist; MACOSX_DEPLOYMENT_TARGET = 26.0; PRODUCT_BUNDLE_IDENTIFIER = com.macport.app; PRODUCT_NAME = MacPort; SUPPORTED_PLATFORMS = macosx; SWIFT_VERSION = 6.0; }; name = Debug; };
+		F10000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ARCHS = arm64; CODE_SIGNING_ALLOWED = NO; INFOPLIST_FILE = Info.plist; MACOSX_DEPLOYMENT_TARGET = 26.0; PRODUCT_BUNDLE_IDENTIFIER = com.macport.app; PRODUCT_NAME = MacPort; SUPPORTED_PLATFORMS = macosx; SWIFT_VERSION = 6.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20000000000000000000001 /* Build configuration list for PBXProject "MacPort" */ = {isa = XCConfigurationList; buildConfigurations = (F10000000000000000000001, F10000000000000000000002, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F20000000000000000000002 /* Build configuration list for PBXNativeTarget "MacPort" */ = {isa = XCConfigurationList; buildConfigurations = (F10000000000000000000003, F10000000000000000000004, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = E10000000000000000000002 /* Project object */;
+}
